@@ -1,0 +1,25 @@
+def solution(size):
+
+    cnt = [0,0,0,0,0,0]
+    
+    for ch in size:
+        if ch == "XS" :
+            cnt[0]+=1
+        elif ch == "S" :
+            cnt[1]+=1
+        elif ch == "M" :
+            cnt[2]+=1
+        elif ch == "L" :
+            cnt[3]+=1
+        elif ch == "XL" :
+            cnt[4]+=1
+        elif ch == "XXL" :
+            cnt[5]+=1
+
+    return cnt
+                   
+size_list = ["XS", "S", "L", "L", "XL", "S"]
+ret = solution(size_list)
+
+print("[XS, S, M, L, XL, XXL] = ", ret)
+
