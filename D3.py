@@ -7,6 +7,7 @@ def func_a(month, day):
 	total += day
 	return total - 1
 
+
 def solution(start_month, start_day, end_month, end_day):
 	start_total = func_a(start_month, start_day)
 	end_total = func_a(end_month, end_day)
