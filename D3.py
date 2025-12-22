@@ -1,5 +1,5 @@
 def func_a(month, day):
-	month_list = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+	month_list = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]   #주어진 값
 	total = 0;
 	for i in range(0,month-1):
 		total += month_list[i]
