@@ -1,3 +1,5 @@
+#size의 따른 분류
+
 def solution(size):
 
     SOL = [0,0,0,0,0,0] #sol 정의
