@@ -1,6 +1,6 @@
 def solution(size):
 
-    SOL = [0,0,0,0,0,0]
+    SOL = [0,0,0,0,0,0] #sol 정의
     
     for ch in size:
         if ch == "XS" :
