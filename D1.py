@@ -21,5 +21,6 @@ def solution(size):
 size_list = ["XS", "S", "L", "L", "XL", "S"]
 ret = solution(size_list)
 
-print("[XS, S, M, L, XL, XXL] = ", ret)
+print("[XS, S, M, L, XL, XXL] = ", ret)    #SOL 출력
+
 
