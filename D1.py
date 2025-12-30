@@ -2,7 +2,7 @@ def solution(size):
 
     SOL = [0,0,0,0,0,0] #sol 정의
     
-    for ch in size:
+    for ch in size:    #size 따른 SOL 정의
         if ch == "XS" :
             SOL[0]+=1
         elif ch == "S" :
