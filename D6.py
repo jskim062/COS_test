@@ -7,3 +7,8 @@ def solution(number):
 				count += 1
 			current = current // 10
 	return count
+
+number = 40
+ret = solution(number)
+
+print("solution 함수의 반환 값은", ret, "입니다.")
