@@ -1,13 +1,14 @@
 def solution(price, grade):
 	answer = 0
 	
+	'''
 	if grade == 'S':
 		answer = int(price - price*0.05)
 	elif grade == 'G':
 		answer = int(price - price*0.1)
 	elif grade == 'V':
 		answer = int(price - price*0.15)
-	
+	'''
 	return answer
 
 price1 = 2500
