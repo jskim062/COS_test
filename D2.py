@@ -1,11 +1,11 @@
 def solution(price, grade):
 	answer = 0
 	
-	'''
+	''' 
 	if grade == 'S':
 		answer = int(price - price*0.05)
 	elif grade == 'G':
-		answer = int(price - price*0.1)
+		answer = int(price - price*0.1)       #정답부분
 	elif grade == 'V':
 		answer = int(price - price*0.15)
 	'''
